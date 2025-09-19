@@ -1,7 +1,22 @@
+# Ignore environment files
 *.env
+**/.env
+
+# Node modules
 node_modules/
 frontend/node_modules/
 backend/node_modules/
 admin/node_modules/
-dist/
-build/
+
+# Build folders
+frontend/build/
+backend/dist/
+admin/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
